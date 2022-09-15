@@ -1,0 +1,15 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 40px;
+  margin-left: 80px;
+}
+
+.grid-container > div {
+  text-align: center;
+  margin: 20px;
+}
+
+.pagination {
+  width: 90%;
+}
